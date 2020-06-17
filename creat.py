@@ -1,7 +1,5 @@
-# Tạo file wav.scp
 import os
 path = os.getcwd()
-print(path)
 files = []
 for r, d, f in os.walk(path):
     for file in f:
